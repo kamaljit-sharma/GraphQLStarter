@@ -10,7 +10,7 @@ Production ready starter project for backend with nodejs and mongodb
 - Yarn shoudl be globally available
   TODO so, npm i -g yarn
 
-#To Run Project
+# To Run Project
 - git clone this repo
 - cd [PROJECT]
 - yarn or npm install
