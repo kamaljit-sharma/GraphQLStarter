@@ -3,6 +3,7 @@ Production ready starter project for backend with nodejs and mongodb
 
 # Prerequisite
 
+- TypeScript
 - Mongodb should be installed
   Follow the link to install https://docs.mongodb.com/manual/installation/
 - Node should be installed
