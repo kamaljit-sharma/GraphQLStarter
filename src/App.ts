@@ -1,6 +1,6 @@
-import express from 'express';
+import * as express from 'express';
 import * as dotenv from 'dotenv';
-import bodyParser from 'body-parser';
+import * as bodyParser from 'body-parser';
 import { graphiqlExpress, graphqlExpress } from 'apollo-server-express';
 import schema from './schemaBuilder';
 import { configureMongo } from './database.config';

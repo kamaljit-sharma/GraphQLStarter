@@ -1,5 +1,5 @@
-import mongoose from 'mongoose';
-import bluebird from 'bluebird';
+import * as mongoose from 'mongoose';
+import * as bluebird from 'bluebird';
 
 export const configureMongo = async () => {
     const mongoURL = process.env.MONGODB_URI || 'mongodb://localhost:27017';
