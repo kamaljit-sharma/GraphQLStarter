@@ -1,5 +1,5 @@
 import { prop, Typegoose } from 'typegoose';
-import mongoose from 'mongoose';
+import * as mongoose from 'mongoose';
 
 export class User extends Typegoose {
     @prop({required : true})
