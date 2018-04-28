@@ -2,7 +2,7 @@ import { User, UserModel } from '../Models';
 
 const UserQuery = {
     Users: () => {
-        return UserModel.find({});
+        return UserModel.find({ name : { $exists : true }});
     }
 };
 

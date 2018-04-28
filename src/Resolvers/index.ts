@@ -1,13 +1,16 @@
 import { BaseQuery } from './Base';
 import { UserQuery, UserMutation } from './User';
+import { BookQuery, BookMutation } from "./Book";
 
 const Query = {
     ...BaseQuery,
-    ...UserQuery
+    ...UserQuery,
+    ...BookQuery,
 };
 
 const Mutation = {
-    ...UserMutation
+    ...UserMutation,
+    ...BookMutation
 };
 
 export default { Query, Mutation };
