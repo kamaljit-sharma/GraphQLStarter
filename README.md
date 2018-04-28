@@ -13,6 +13,6 @@ Production ready starter project for backend with nodejs and mongodb
 
 # To Run Project
 - git clone this repo
-- cd [PROJECT]
+- go inside project directory
 - yarn or npm install
 - yarn dev
